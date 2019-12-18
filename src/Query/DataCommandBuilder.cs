@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 
-using DataVault.Common.Json;
 using DataVault.Internal;
 
 namespace DataVault.Query
@@ -36,7 +35,7 @@ namespace DataVault.Query
         {
             Columns.Add(name);
 
-            Parameters.AddIfNotContains(name, value);
+            Parameters.Add(name, value);
 
             return this;
         }

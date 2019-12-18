@@ -31,7 +31,6 @@ namespace DataVault.Internal
             return record.IsDBNull(column) ? null : (bool?)record.GetBoolean(column);
         }
 
-
         internal static string GetSafeString(this IDataRecord record, int column)
         {
             return record.IsDBNull(column) ? null : record.GetString(column);

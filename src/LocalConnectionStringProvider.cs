@@ -40,7 +40,6 @@ namespace DataVault
 
             return new Dictionary<string, string>
                 {
-
                     { "server", BoundHost },
                     { "database", databaseName },
                     { "UID", DvUser },

@@ -1,8 +1,9 @@
+using System;
+using System.Collections.Generic;
+
 using DataVault.Entities.Dv;
 using DataVault.Internal;
 using DataVault.Repositories;
-using System;
-using System.Collections.Generic;
 
 namespace DataVault.UoW
 {

@@ -135,7 +135,7 @@ namespace DataVault
         {
             var jsonResult = ExecuteWithErrorHandling();
 
-            return jsonResult.HasJsonValue() ? jsonResult.ToNestedJson().FromJsonString<TEntity>() : default;
+            return jsonResult.HasJsonValue() ? jsonResult.FromJsonString<TEntity>() : default;
         }
 
         private static string ParseMessage(string jsonResult)

@@ -8,7 +8,6 @@ namespace DataVault.Common.Extensions
     /// </summary>
     public static class StringConvertExtensions
     {
-
         public static bool ToBoolean(this string value)
         {
             if (value == null)
